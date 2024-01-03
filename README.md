@@ -20,9 +20,9 @@
 
 ## Deployment Strategy
 
-1. We will use the [Terraform-based EKS Blueprints]() for Istio to deploy:
-   - The EKS cluster
-   - Istio with Kiali, Jaeger, Prometheus and Grafana
+1. We will use these official [Terraform-based EKS Blueprints]() for Istio to deploy:
+   - EKS cluster
+   - A service mesh based on Istio with integrated Kiali, Jaeger, Prometheus and Grafana.
      
 2. We will use V1 and V2 versions which were previously uploaded into this demo [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
    - V1 deployment which will host the version 1 of the app.
@@ -31,8 +31,13 @@
 <br>
 
 ## Technologies used
-- **MS Azure**
-- **AKS (Azure Kubernetes Service)**
+- **Istio**
+- **Amazon Web Services**
+- **AWS EKS**
+- **Kiali**
+- **Jaeger**
+- **Prometheus**
+- **Grafana**
 - **Node.JS**
 - **Express**
 - **JavaScript**
