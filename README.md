@@ -3,7 +3,8 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img height="50" width="50" src="https://cdn.simpleicons.org/helm/blue" /><img height="50" width="50" src="https://cdn.simpleicons.org/Istio/#4863A0" /><img src="https://skillicons.dev/icons?i=kiali,kubernetes,aws,docker,nodejs,mysql"/><img height="50" width="50" src="https://cdn.simpleicons.org/jaeger/#38ACEC" /><img height="50" width="50" src="https://cdn.simpleicons.org/terraform/blue" /><img height="50" width="50" src="https://cdn.simpleicons.org/kiali/blue" />
+    <img height="50" width="50" src="https://cdn.simpleicons.org/helm/blue" /><img height="50" width="50" src="https://cdn.simpleicons.org/Istio/#4863A0" /><img src="https://skillicons.dev/icons?i=kiali,kubernetes,aws,docker,nodejs,mysql"/><img height="50" width="50" src="https://cdn.simpleicons.org/jaeger/#38ACEC" /><img height="50" width="50" src="![image](https://github.com/otam-mato/istio/assets/113034133/c2ed88e4-1b26-4ce0-b44e-c75099444cf5)
+" />
   </a>
 </p>
 
