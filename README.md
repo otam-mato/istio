@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img height="50" width="50" src="https://cdn.simpleicons.org/helm/blue" /><img src="https://skillicons.dev/icons?i=istio,kubernetes,azure,docker,nodejs,mysql"/>
+    <img height="50" width="50" src="https://cdn.simpleicons.org/helm/blue" /><img height="50" width="50" src="https://cdn.simpleicons.org/istio/blue" /><img src="https://skillicons.dev/icons?i=kubernetes,azure,docker,nodejs,mysql"/>
   </a>
 </p>
 
