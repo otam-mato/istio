@@ -20,16 +20,13 @@
 
 ## Deployment Strategy
 
-The transition to microservices often brings complexities related to traffic management, security, and observability. This is where **Istio** steps in, offering a comprehensive service mesh solution that streamlines these challenges. Istio is an open source service mesh platform designed to enhance the management, security, policy enforcement, and observability of microservices-based applications.
-
-1. In this demo, we will use **HELM** to deploy:
+1. We will use the [Terraform-based EKS Blueprints]() for Istio to deploy:
+   - The EKS cluster
+   - Istio with Kiali, Jaeger, Prometheus and Grafana
+     
+2. We will use V1 and V2 versions which were previously uploaded into this demo [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
    - V1 deployment which will host the version 1 of the app.
    - V2 deployment which will host the version 2 of the app.
-   - Finally we will rollback V2 to V1.
-
-   V1 and V2 versions were previously uploaded into this demo [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
-
-2. **The app and its database are placed in separate cantainers and separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.**
 
 <br>
 
