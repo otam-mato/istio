@@ -1,6 +1,6 @@
 [under revision]
 
-# Node.JS + MySQL Web App.<br><br>Setting up service mesh with Istio.<br><br>Observability with Kiali, Jaeger, Prometheus, Grafana.
+# Node.JS + MySQL Web App.<br><br>Setting up a service mesh with Istio.<br><br>Observability with Kiali, Jaeger, Prometheus, Grafana.
 
 <p align="center">
   <a href="https://skillicons.dev">
