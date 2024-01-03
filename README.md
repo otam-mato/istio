@@ -29,6 +29,8 @@
 2. We will use V1 and V2 versions of the app which were previously uploaded into this demo [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
    - V1 deployment which will host the version 1 of the app.
    - V2 deployment which will host the version 2 of the app.
+  
+3. We will deploy both Versions simusltaniously using **HELM**
 
 <br>
 
