@@ -30,7 +30,7 @@
    - V1 deployment which will host the version 1 of the app.
    - V2 deployment which will host the version 2 of the app.
   
-3. We will deploy both Versions simusltaniously using **HELM**
+3. We will deploy both app versions simultaneously using **HELM**
 
 <br>
 
