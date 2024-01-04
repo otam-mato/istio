@@ -15,4 +15,4 @@ spec:
     - destination:
         host: frontend-service
         port:
-          number: 9000
+          number: 3000
