@@ -51,7 +51,7 @@
 - **HELM**
 <br>
 
-## Application Functionality
+## Functionality
 
 This web application interfaces with a MySQL database, facilitating CRUD (Create, Read, Update, Delete) operations on the database records.
 
