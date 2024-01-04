@@ -13,7 +13,9 @@ spec:
       labels:
         app: node-app
       annotations:
-        sidecar.opentelemetry.io/inject: "true"
+        sidecar.opentelemetry.io/inject: 'true'
+        prometheus.io/scrape: 'true'
+        prometheus.io/path: '/stats/prometheus'
     spec:
       containers:
         - name: node-app
