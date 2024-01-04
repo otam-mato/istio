@@ -13,6 +13,6 @@ spec:
         prefix: /
     route:
     - destination:
-        host: frontend-service
+        host: node-app
         port:
           number: 3000
