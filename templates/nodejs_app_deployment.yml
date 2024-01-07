@@ -17,6 +17,7 @@ spec:
         prometheus.io/scrape: 'true'
         prometheus.io/path: '/stats/prometheus'
     spec:
+      serviceAccountName: nodejs-sa
       containers:
         - name: node-app
           image: {{ .Values.nodeApp.image.repository }}:{{ .Values.nodeApp.image.tag }}
