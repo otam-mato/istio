@@ -2,16 +2,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-nodejsapp
+  name: frontend
+  namespace: {{ .Release.Namespace }}
 spec:
   replicas: {{ .Values.nodeApp.replicaCount }}
   selector:
     matchLabels:
-      app: node-app
+      app: frontend
   template:
     metadata:
       labels:
-        app: node-app
+        app: frontend
       annotations:
         sidecar.opentelemetry.io/inject: 'true'
         prometheus.io/scrape: 'true'
@@ -19,7 +20,7 @@ spec:
     spec:
       serviceAccountName: nodejs-sa
       containers:
-        - name: node-app
+        - name: frontend
           image: {{ .Values.nodeApp.image.repository }}:{{ .Values.nodeApp.image.tag }}
           ports:
             - containerPort: 3000
