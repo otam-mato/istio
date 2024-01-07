@@ -13,6 +13,7 @@ spec:
       labels:
         app: mysql-app
     spec:
+      serviceAccountName: mysql-sa
       containers:
         - name: mysql-server
           image: {{ .Values.mysql.image.repository }}:{{ .Values.mysql.image.tag }}
