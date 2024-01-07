@@ -4,4 +4,4 @@ metadata:
   name: mysql-sa
   namespace: {{ .Release.Namespace }}
   labels:
-    account: mysql-sa
+    account: mysql
