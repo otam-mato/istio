@@ -21,6 +21,19 @@ spec:
       containers:
         - name: node-app
           image: {{ .Values.nodeApp.image.repository }}:{{ .Values.nodeApp.image.tag }}
+          livenessProbe:
+            httpGet:
+              path: /ping
+              port: 3000
+            initialDelaySeconds: 0
+            periodSeconds: 10
+            timeoutSeconds: 1
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /ping
+              port: 3000
+            successThreshold: 3
           ports:
             - containerPort: 3000
           env:
