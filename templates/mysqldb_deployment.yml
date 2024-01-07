@@ -17,6 +17,19 @@ spec:
       containers:
         - name: mysql-server
           image: {{ .Values.mysql.image.repository }}:{{ .Values.mysql.image.tag }}
+          livenessProbe:
+            httpGet:
+              path: /ping
+              port: 3306
+            initialDelaySeconds: 0
+            periodSeconds: 10
+            timeoutSeconds: 1
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /ping
+              port: 3306
+            successThreshold: 3
           ports:
             - containerPort: 3306
           env:
