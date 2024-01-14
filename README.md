@@ -109,5 +109,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
   https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
   https://aws-ia.github.io/terraform-aws-eks-blueprints/patterns/istio/
+
+  <img width="800" alt="Screenshot 2024-01-14 at 21 09 50" src="https://github.com/otam-mato/istio/assets/113034133/b79cb294-f06e-40db-b517-ef66a106d43e">
   
-  <img width="800" alt="Screenshot 2024-01-14 at 21 04 48" src="https://github.com/otam-mato/istio/assets/113034133/4ab1bd0c-ff96-48c9-9120-ba87a3f7ab71">
+  
