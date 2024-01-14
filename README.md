@@ -97,11 +97,11 @@ The app sets up a web server for a supplier management system. It allows viewing
 #### **Starting Up**:
    - The server comes to life, starts listening for visits, and announces its awakening with a log message.
 
+</details>
+
+<br>
+
 
 ## Prerequisites
 
 - A work station or a **VM**.
-
-</details>
-
-<br>
