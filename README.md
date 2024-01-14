@@ -104,4 +104,4 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ## Prerequisites
 
-- A work station or a **VM**.
+- A work station or an **EC2**.
