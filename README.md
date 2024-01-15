@@ -120,7 +120,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 - **HELM** [installed](https://helm.sh/docs/intro/install/)
 - **ISTIO** [installed](https://istio.io/latest/docs/setup/getting-started/)
 - **Kubectl** [installed](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
-- **AWS CLI** installed
+- **AWS CLI** [installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions)
 - **AWS configure**
 
   https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
