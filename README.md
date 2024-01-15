@@ -118,7 +118,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 - A work station or an **EC2 instance**.
 - I will be using **AWS EKS**, and this official blueprint to deploy AWS resources, EKS cluster and Istio: <br>
 - **HELM** installed
-- **ISTIO** installed
+- **ISTIO** [installed](https://istio.io/latest/docs/setup/getting-started/)
 - **Kubectl** installed
 - **AWS CLI** installed
 - **AWS configure**
