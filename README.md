@@ -111,5 +111,8 @@ The app sets up a web server for a supplier management system. It allows viewing
   https://aws-ia.github.io/terraform-aws-eks-blueprints/patterns/istio/
 
   <img width="800" alt="Screenshot 2024-01-14 at 21 09 50" src="https://github.com/otam-mato/istio/assets/113034133/b79cb294-f06e-40db-b517-ef66a106d43e">
-  
+
+- HELM installed
+- ISTIO installed
+- Kubectl installed
   
