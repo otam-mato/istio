@@ -171,3 +171,11 @@ The app sets up a web server for a supplier management system. It allows viewing
 1. Deploying the app
 
 2. Deploying the istio components
+3. Monitoring
+
+### Deploying the app V2 with HELM
+
+1. Deploying the app
+
+2. Deploying the istio components
+3. Monitoring
