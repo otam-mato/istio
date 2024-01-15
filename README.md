@@ -56,7 +56,7 @@
 
 ## Functionality
 
-This web application interfaces with a MySQL database, facilitating CRUD (Create, Read, Update, Delete) operations on the database records.
+This teo-tier web application interfaces with a MySQL database, facilitating CRUD (Create, Read, Update, Delete) operations on the database records.
 
 **<details markdown=1><summary markdown="span">Detailed app description</summary>**
 
