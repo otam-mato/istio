@@ -165,3 +165,9 @@ The app sets up a web server for a supplier management system. It allows viewing
    # Visualize application traces via Jaeger
    kubectl port-forward svc/jaeger 16686:16686 -n istio-system
    ```
+
+### Deploying the app V1 with HELM
+
+1. Deploying the app
+
+2. Deploying the istio components
