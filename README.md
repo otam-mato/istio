@@ -129,3 +129,9 @@ The app sets up a web server for a supplier management system. It allows viewing
 <br>
 
 ## Steps
+
+1. Enable Istio in a Namespace
+
+   ```bash
+   kubectl label namespace default istio-injection=enabled
+   ```
