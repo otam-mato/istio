@@ -136,3 +136,14 @@ The app sets up a web server for a supplier management system. It allows viewing
    kubectl label namespace default istio-injection=enabled
    ```
    <img width="1000" alt="Screenshot 2024-01-15 at 21 28 18" src="https://github.com/otam-mato/istio/assets/113034133/df2bc9a6-d317-4c75-a77f-2fc6c2413d6f">
+
+2. Use the following code snippet to add the Istio Observability Add-ons on the EKS cluster with deployed Istio.
+
+   ```
+   for ADDON in kiali jaeger prometheus grafana
+   do
+       ADDON_URL="https://raw.githubusercontent.com/istio/istio/release-1.20/samples/addons/$ADDON.yaml"
+       kubectl apply -f $ADDON_URL
+   done
+   ```
+   <img width="1555" alt="Screenshot 2024-01-15 at 21 40 31" src="https://github.com/otam-mato/istio/assets/113034133/ea46157e-0859-4d1f-8c56-e933fd8e7916">
