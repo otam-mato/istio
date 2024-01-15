@@ -105,6 +105,10 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 <br>
 
+![image](https://github.com/otam-mato/istio/assets/113034133/241749c0-e9a1-452b-adde-1b891891d3f8)
+
+<br>
+
 ## ScreenShots
 
 <br>
