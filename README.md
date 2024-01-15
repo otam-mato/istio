@@ -107,7 +107,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ## Prerequisites
 
-- A work station or an **EC2**.
+- A work station or an **EC2 instance**.
 - I will be using **AWS EKS**, and this official blueprint to deploy AWS resources, EKS cluster and Istio: <br>
 
   https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
