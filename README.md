@@ -25,7 +25,7 @@
 
 ## Deployment Strategy
 
-1. We will use these official [Terraform-based EKS Blueprints]() for Istio to deploy:
+1. We will be using these official [Terraform-based EKS Blueprints]() for Istio to deploy:
    - An EKS cluster and other relevant resources.
    - A service mesh based on Istio.
      
