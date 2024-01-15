@@ -194,7 +194,8 @@ The app sets up a web server for a supplier management system. It allows viewing
 <img width="800" alt="Screenshot 2024-01-15 at 22 37 34" src="https://github.com/otam-mato/istio/assets/113034133/ced9c917-851d-4fcf-bda2-d4c4641fbe65">
 
 2. Demo of Grafana
-   
+<img width="800" alt="Screenshot 2024-01-15 at 22 40 47" src="https://github.com/otam-mato/istio/assets/113034133/e90e5446-c9dc-40bc-8d9e-8f34c29013a9">
+
 4. Demo of Jaeger
 <img width="800" alt="Screenshot 2024-01-15 at 22 27 24" src="https://github.com/otam-mato/istio/assets/113034133/2540476a-45fb-44f8-a1a7-3e08260cb52a">
 <img width="800" alt="Screenshot 2024-01-15 at 22 28 53" src="https://github.com/otam-mato/istio/assets/113034133/45c1a84d-cfaf-4ca5-a7e9-8bca74cb99a0">
