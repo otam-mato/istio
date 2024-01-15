@@ -135,3 +135,4 @@ The app sets up a web server for a supplier management system. It allows viewing
    ```bash
    kubectl label namespace default istio-injection=enabled
    ```
+   <img width="1000" alt="Screenshot 2024-01-15 at 21 28 18" src="https://github.com/otam-mato/istio/assets/113034133/df2bc9a6-d317-4c75-a77f-2fc6c2413d6f">
