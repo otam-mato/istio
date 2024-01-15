@@ -101,6 +101,9 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 <br>
 
+## Deployment Strategy
+
+
 
 ## Prerequisites
 
