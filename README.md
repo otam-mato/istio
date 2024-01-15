@@ -193,3 +193,4 @@ The app sets up a web server for a supplier management system. It allows viewing
 2. Demo of Grafana
    
 4. Demo of Jaeger
+<img width="800" alt="Screenshot 2024-01-15 at 22 27 24" src="https://github.com/otam-mato/istio/assets/113034133/2540476a-45fb-44f8-a1a7-3e08260cb52a">
