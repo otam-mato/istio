@@ -103,7 +103,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ## Architecture
 
-
+<br>
 
 ## Prerequisites
 
@@ -118,4 +118,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 - **HELM** installed
 - **ISTIO** installed
 - **Kubectl** installed
-  
+
+<br>
+
+## Steps
