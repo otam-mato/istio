@@ -119,7 +119,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 - I will be using **AWS EKS**, and this official blueprint to deploy AWS resources, EKS cluster and Istio: <br>
 - **HELM** [installed](https://helm.sh/docs/intro/install/)
 - **ISTIO** [installed](https://istio.io/latest/docs/setup/getting-started/)
-- **Kubectl** installed
+- **Kubectl** [installed](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
 - **AWS CLI** installed
 - **AWS configure**
 
