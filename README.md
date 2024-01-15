@@ -171,11 +171,21 @@ The app sets up a web server for a supplier management system. It allows viewing
 1. Deploying the app
 
 2. Deploying the istio components
-3. Monitoring
+   
+4. Monitoring with **KIALI**
 
 ### Deploying the app V2 with HELM
 
 1. Deploying the app
 
 2. Deploying the istio components
-3. Monitoring
+   
+4. Monitoring with **KIALI**
+
+### Demo of the observability tools
+
+1. Demo of Prometheus
+
+2. Demo of Grafana
+   
+4. Demo of Jaeger
