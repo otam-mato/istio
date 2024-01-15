@@ -147,3 +147,19 @@ The app sets up a web server for a supplier management system. It allows viewing
    done
    ```
    <img width="1555" alt="Screenshot 2024-01-15 at 21 40 31" src="https://github.com/otam-mato/istio/assets/113034133/ea46157e-0859-4d1f-8c56-e933fd8e7916">
+
+3. Validate the setup of the observability add-ons by running the following commands and accessing each of the service endpoints using this URL of the form http://localhost:<port> where <port> is one of the port number for the corresponding service.
+
+   ```bash
+   # Visualize Istio Mesh console using Kiali
+   kubectl port-forward svc/kiali 20001:20001 -n istio-system
+    
+   # Get to the Prometheus UI
+   kubectl port-forward svc/prometheus 9090:9090 -n istio-system
+    
+   # Visualize metrics in using Grafana
+   kubectl port-forward svc/grafana 3000:3000 -n istio-system
+    
+   # Visualize application traces via Jaeger
+   kubectl port-forward svc/jaeger 16686:16686 -n istio-system
+   ```
