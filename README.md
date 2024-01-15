@@ -189,6 +189,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 ### Demo of the observability tools
 
 1. Demo of Prometheus
+<img width="800" alt="Screenshot 2024-01-15 at 22 35 39" src="https://github.com/otam-mato/istio/assets/113034133/6507b117-a5de-43ca-aca0-9d4332e3412a">
 
 2. Demo of Grafana
    
