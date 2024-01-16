@@ -1,0 +1,21 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: node-app-canary
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - bookinfo-gateway
+  http:
+  - route:
+    - destination:
+        host: node-app-service
+        port:
+          number: 80
+      weight: 80
+    - destination:
+        host: node-app-service2
+        port:
+          number: 80
+      weight: 20
