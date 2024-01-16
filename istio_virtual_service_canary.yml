@@ -7,7 +7,7 @@ spec:
   hosts:
   - "*"
   gateways:
-  - bookinfo-gateway
+  - node-app-gateway
   http:
   - route:
     - destination:
