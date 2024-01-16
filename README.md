@@ -227,9 +227,9 @@ The app sets up a web server for a supplier management system. It allows viewing
    - 80% to V1 of the app
    - 20% to V2 of the app
 
+<img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
 <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
 
-<img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
 <img width="800" alt="Screenshot 2024-01-16 at 20 43 21" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4724436e-3f3f-494b-a50d-a33f65b2be45">
 <img width="800" alt="Screenshot 2024-01-16 at 20 43 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/0ffc0a4e-0124-4448-bbe2-ad24e878c2e7">
 
