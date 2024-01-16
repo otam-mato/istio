@@ -7,14 +7,14 @@ spec:
   replicas: {{ .Values.nodeApp.replicaCount }}
   selector:
     matchLabels:
-      app: node-app
+      app: {{ .Release.Name }}-node-app
   template:
     metadata:
       labels:
-        app: node-app
+        app: {{ .Release.Name }}-node-app
     spec:
       containers:
-        - name: node-app
+        - name: {{ .Release.Name }}-node-app
           image: {{ .Values.nodeApp.image.repository }}:{{ .Values.nodeApp.image.tag }}
           ports:
             - containerPort: 3000
