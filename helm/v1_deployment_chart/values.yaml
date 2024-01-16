@@ -1,0 +1,17 @@
+# values.yaml
+nodeApp:
+  replicaCount: 2
+  image:
+    repository: montcarotte/fullstack_nodejs_mysql_demo
+    tag: node_app_v2
+
+mysql:
+  image:
+    repository: montcarotte/fullstack_nodejs_mysql_demo
+    tag: mysql_server_new
+  rootPassword: "admin"
+  database: "coffee"
+  username: "admin"
+  passwordSecret: "new-mysql-secret"
+  serviceName: mysql
+
