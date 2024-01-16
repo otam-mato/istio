@@ -11,12 +11,12 @@ spec:
   http:
   - route:
     - destination:
-        host: node-app-service
+        host: {{ .Values.nodeApp.releaseOneName }}
         port:
           number: 80
       weight: 80
     - destination:
-        host: node-app2-service
+        host: {{ .Values.nodeApp.releaseTwoName }}
         port:
           number: 80
       weight: 20
