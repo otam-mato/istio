@@ -5,7 +5,7 @@ metadata:
   name: {{ .Release.Name }}
 spec:
   selector:
-    app: node-app
+    app: {{ .Release.Name }}-node-app
   ports:
     - protocol: TCP
       port: 80
