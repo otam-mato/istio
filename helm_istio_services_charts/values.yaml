@@ -1,7 +1,6 @@
 # values.yaml
 nodeApp:
-  releaseOneName: V1
-  releaseTwoName: V2
+  releaseName: v2app
 
 
 
