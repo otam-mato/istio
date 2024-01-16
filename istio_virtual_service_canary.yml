@@ -16,7 +16,7 @@ spec:
           number: 80
       weight: 80
     - destination:
-        host: node-app-service
+        host: node-app2-service
         port:
           number: 80
       weight: 20
