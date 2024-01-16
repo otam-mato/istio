@@ -34,6 +34,14 @@
    - V2 deployment which will host the version 2 of the app.
   
 3. We will deploy both app versions simultaneously using **HELM**
+   
+5. We will deploy Istio services using **HELM** as well:
+   - Gateway
+   - A virtual service
+  
+5. We switch traffic from V1 to V2 which will represent a **"Blue-Green"** deployment strategy
+
+6. Then we will re-arrange the Istio Virtual Service to redistribute the traffic to V1 and V2 in 80%/20% ratio
 
 <br>
 
