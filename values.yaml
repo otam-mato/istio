@@ -1,10 +1,9 @@
 # values.yaml
 nodeApp:
-  replicaCount: 2
-  image:
-    repository: montcarotte/fullstack_nodejs_mysql_demo
-    tag: node_app_v2
+  releaseOneName: V1
+  releaseTwoName: V2
 
-mysql:
-  username: "admin"
-  serviceName: mysql-service
+
+
+
+
