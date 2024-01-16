@@ -3,7 +3,7 @@ nodeApp:
   replicaCount: 2
   image:
     repository: montcarotte/fullstack_nodejs_mysql_demo
-    tag: node_app_v2
+    tag: node_app_v1
 
 mysql:
   image:
