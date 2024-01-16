@@ -14,6 +14,6 @@ spec:
         prefix: /
     route:
     - destination:
-        host: {{ .Values.nodeApp.releaseName: }}
+        host: {{ .Values.nodeApp.releaseName }}
         port:
           number: 80
