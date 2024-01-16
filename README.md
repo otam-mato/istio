@@ -26,8 +26,8 @@
 ## Deployment Strategy
 
 1. We will be using these official [Terraform-based EKS Blueprints]() for Istio to deploy:
-   - An EKS cluster and other relevant resources.
-   - A service mesh based on Istio.
+   - An **EKS cluster** and other relevant resources.
+   - A service mesh based on **Istio**.
      
 2. We will use V1 and V2 versions of the app which were previously uploaded into this demo [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
    - V1 deployment which will host the version 1 of the app.
@@ -41,7 +41,7 @@
   
 5. We switch traffic from V1 to V2 which will represent a **"Blue-Green"** deployment strategy
 
-6. Then we will re-arrange the Istio Virtual Service to redistribute the traffic to V1 and V2 in 80%/20% ratio
+6. Then we will re-arrange the Istio Virtual Service to redistribute the traffic to V1 and V2 in 80%/20% ratio which will represent a **"Canary"** deployment strategy
 
 <br>
 
