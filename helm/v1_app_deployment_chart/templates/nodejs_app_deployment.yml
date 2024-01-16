@@ -20,7 +20,8 @@ spec:
             - containerPort: 3000
           env:
             - name: APP_DB_HOST
-              value: {{ .Release.Name }}-{{ .Values.mysql.serviceName }}
+#              value: {{ .Release.Name }}-{{ .Values.mysql.serviceName }}
+              value: {{ .Values.mysql.serviceName }}
             - name: APP_DB_USER
               value: {{ .Values.mysql.username }}
 
