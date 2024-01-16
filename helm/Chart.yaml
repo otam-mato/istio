@@ -1,6 +1,0 @@
-# Chart.yaml
-apiVersion: v2
-name: coffee_app
-description: A Helm chart for deploying a Node.js and MySQL app
-version: 0.1.0
-appVersion: "1.16.0"
