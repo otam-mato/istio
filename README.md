@@ -267,17 +267,20 @@ The app sets up a web server for a supplier management system. It allows viewing
 ### Demo of the observability tools
 
 1. Demo of Prometheus
+   
    <img width="800" alt="Screenshot 2024-01-15 at 22 35 39" src="https://github.com/otam-mato/istio/assets/113034133/6507b117-a5de-43ca-aca0-9d4332e3412a">
    <img width="800" alt="Screenshot 2024-01-15 at 22 36 52" src="https://github.com/otam-mato/istio/assets/113034133/1b92b73f-9427-4d09-990e-0e7ed403e0a2">
    <img width="800" alt="Screenshot 2024-01-15 at 22 37 34" src="https://github.com/otam-mato/istio/assets/113034133/ced9c917-851d-4fcf-bda2-d4c4641fbe65">
 
-2. Demo of Grafana
+3. Demo of Grafana
+   
    <img width="800" alt="Screenshot 2024-01-15 at 22 40 47" src="https://github.com/otam-mato/istio/assets/113034133/e90e5446-c9dc-40bc-8d9e-8f34c29013a9">
    <img width="800" alt="Screenshot 2024-01-15 at 22 42 12" src="https://github.com/otam-mato/istio/assets/113034133/c66a8655-576d-4b74-9cf6-58bb20a49fd2">
    <img width="800" alt="Screenshot 2024-01-15 at 22 43 39" src="https://github.com/otam-mato/istio/assets/113034133/f920c10c-57ee-42a4-94f2-aa228a014c82">
    <img width="800" alt="Screenshot 2024-01-15 at 22 46 16" src="https://github.com/otam-mato/istio/assets/113034133/e7124474-28a1-4181-bada-756651ddba69">
 
-4. Demo of Jaeger
+5. Demo of Jaeger
+   
    <img width="800" alt="Screenshot 2024-01-15 at 22 27 24" src="https://github.com/otam-mato/istio/assets/113034133/2540476a-45fb-44f8-a1a7-3e08260cb52a">
    <img width="800" alt="Screenshot 2024-01-15 at 22 28 53" src="https://github.com/otam-mato/istio/assets/113034133/45c1a84d-cfaf-4ca5-a7e9-8bca74cb99a0">
    <img width="800" alt="Screenshot 2024-01-15 at 22 29 46" src="https://github.com/otam-mato/istio/assets/113034133/981549be-43d3-479b-a63f-069c2bbc069e">
@@ -290,12 +293,12 @@ The app sets up a web server for a supplier management system. It allows viewing
    - 80% to V1 of the app
    - 20% to V2 of the app
 
-<img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
-<img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
+   <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
+   <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
 
-<img width="800" alt="Screenshot 2024-01-16 at 20 43 21" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4724436e-3f3f-494b-a50d-a33f65b2be45">
-<img width="800" alt="Screenshot 2024-01-16 at 20 43 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/0ffc0a4e-0124-4448-bbe2-ad24e878c2e7">
+   <img width="800" alt="Screenshot 2024-01-16 at 20 43 21" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4724436e-3f3f-494b-a50d-a33f65b2be45">
+   <img width="800" alt="Screenshot 2024-01-16 at 20 43 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/0ffc0a4e-0124-4448-bbe2-ad24e878c2e7">
 
-<img width="800" alt="Screenshot 2024-01-16 at 20 27 28" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/1a1b2ae4-ec4b-4829-b0c7-b829290f4fbc">
+   <img width="800" alt="Screenshot 2024-01-16 at 20 27 28" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/1a1b2ae4-ec4b-4829-b0c7-b829290f4fbc">
 
 <br>
