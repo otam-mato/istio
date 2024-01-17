@@ -224,6 +224,8 @@ The app sets up a web server for a supplier management system. It allows viewing
    ```
    helm install istiocomponents .
    ```
+   
+   <img width="800" alt="Screenshot 2024-01-17 at 17 02 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/b760036f-291d-47f7-be88-6ebab6cdf8d8">
 
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
    
