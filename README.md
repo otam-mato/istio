@@ -121,22 +121,21 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 - A work station or an **EC2 instance**.
 - I will be using **AWS EKS**, and this official blueprint to deploy AWS resources, EKS cluster and Istio: <br>
+  https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
+  https://aws-ia.github.io/terraform-aws-eks-blueprints/patterns/istio/
 - **HELM** [installed](https://helm.sh/docs/intro/install/)
 - **ISTIO** [installed](https://istio.io/latest/docs/setup/getting-started/)
 - **Kubectl** [installed](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
 - **AWS CLI** [installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions)
 - **AWS configured** with a command `aws configure`
-
-  https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
-  https://aws-ia.github.io/terraform-aws-eks-blueprints/patterns/istio/
-
-  <img width="800" alt="Screenshot 2024-01-14 at 21 09 50" src="https://github.com/otam-mato/istio/assets/113034133/b79cb294-f06e-40db-b517-ef66a106d43e">
-
 - **Kubernetes cluster configured (update kubeconfig)**
 
   ```
   aws eks --region us-west-2 update-kubeconfig --name istio-on-eks
   ```
+  
+  <img width="800" alt="Screenshot 2024-01-14 at 21 09 50" src="https://github.com/otam-mato/istio/assets/113034133/b79cb294-f06e-40db-b517-ef66a106d43e">
+
 
 <br>
 
