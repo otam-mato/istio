@@ -119,7 +119,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 <br>
 
-<img width="1400" alt="Screenshot 2024-01-17 at 00 21 51" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/8b83455f-c0b6-406c-a78b-8a9c27b27e8a">
+<img width="1400" alt="Screenshot 2024-01-17 at 14 39 48" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/75603eec-ba5b-4973-8a35-674a00a5f16d">
 
 <br>
 
