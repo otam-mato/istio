@@ -150,7 +150,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ### Setting up Istio and deploying observability tools
 
-1. Enable Istio in a Namespace
+1. Enable Istio in the working namespace. Mine is default.
 
    ```bash
    kubectl label namespace default istio-injection=enabled
