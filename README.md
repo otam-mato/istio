@@ -234,7 +234,7 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm install v2app .
    ```
 
-3. Re-deploying the istio components
+2. Re-deploying the istio components
    ```
    helm delete istiocomponents
    ```
@@ -246,9 +246,22 @@ The app sets up a web server for a supplier management system. It allows viewing
    nodeApp:
      releaseName: v2app
    ```
+   ```
+   helm lint
+   ```
+   ```
+   helm template istiocomponents .
+   ```
+   ```
+   helm install istiocomponents .
+   ```
+   <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
    
-5. Monitoring with **KIALI**
-<img width="800" alt="Screenshot 2024-01-16 at 21 04 58" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/7882e48e-6862-4ece-a3e7-60f73f12ad2a">
+3. Monitoring with **KIALI**
+
+   Now both versions of app V1 and V2 deployed but traffic switched 100% to V2
+   
+   <img width="800" alt="Screenshot 2024-01-16 at 21 04 58" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/7882e48e-6862-4ece-a3e7-60f73f12ad2a">
 
 
 ### Demo of the observability tools
