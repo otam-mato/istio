@@ -289,9 +289,11 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ### Traffic management
 
-1. Implementing **"Canary"** deployment with traffic destribution:
+Implementing **"Canary"** deployment with traffic destribution:
    - 80% to V1 of the app
    - 20% to V2 of the app
+
+1. helm_istio_services_charts_canary
 
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
