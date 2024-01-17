@@ -289,7 +289,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ### Traffic management
 
-Implementing **"Canary"** deployment with traffic destribution:
+Implementing **"Canary"** deployment with traffic distribution:
   - 80% to V1 of the app
   - 20% to V2 of the app
 
