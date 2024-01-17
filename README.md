@@ -26,6 +26,7 @@
   <img width="300" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
 </p>
 
+<br>
 
 ## Deployment Strategy
 
