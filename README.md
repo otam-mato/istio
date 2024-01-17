@@ -157,7 +157,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ## Steps
 
-### Setting up Istio and deploying observability tools
+### Setting up Istio and deploying the observability tools
 
 1. Enable Istio in the working namespace. Mine is default.
 
