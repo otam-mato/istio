@@ -280,6 +280,19 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ### Demo of the observability tools
 
+  ```
+  # Visualize Istio Mesh console using Kiali
+  kubectl port-forward svc/kiali 20001:20001 -n istio-system
+   
+  # Get to the Prometheus UI
+  kubectl port-forward svc/prometheus 9090:9090 -n istio-system
+   
+  # Visualize metrics in using Grafana
+  kubectl port-forward svc/grafana 3000:3000 -n istio-system
+   
+  # Visualize application traces via Jaeger
+  kubectl port-forward svc/jaeger 16686:16686 -n istio-system
+  ```
 1. Demo of Prometheus
    
    <img width="800" alt="Screenshot 2024-01-15 at 22 35 39" src="https://github.com/otam-mato/istio/assets/113034133/6507b117-a5de-43ca-aca0-9d4332e3412a">
