@@ -326,7 +326,7 @@ This is modified VirtualService for the reference (it is available in helm_istio
    ```
    helm delete istiocomponents
    ```
-   change the values of for istio Virtual Service to V2
+   change the folder where the modified Istio components are available (a Gateway and a VirtualService)
    ```
    cd istio_nodejsapp_demo/helm_istio_services_charts_canary
    ```
