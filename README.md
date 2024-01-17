@@ -218,13 +218,36 @@ The app sets up a web server for a supplier management system. It allows viewing
    
    <img width="800" alt="Screenshot 2024-01-15 at 16 57 52" src="https://github.com/otam-mato/istio/assets/113034133/29fd9c65-d181-4da9-8406-ecf5416df0af">
 
-### Deploying the app V2 with HELM
+### Deploying the app V2 with HELM and switching 100% of traffic to V2
 
 1. Deploying the app
+   ```
+   cd istio_nodejsapp_demo/helm_charts_app/v2_app_deployment_chart
+   ```
+   ```
+   helm lint .
+   ```
+   ```
+   helm template v2app .
+   ```
+   ```
+   helm install v2app .
+   ```
 
-2. Deploying the istio components
+3. Re-deploying the istio components
+   ```
+   helm delete istiocomponents
+   ```
+   change the values of for istio Virtual Service to V2
+   ```
+   cat istio_nodejsapp_demo/helm_istio_services_charts/values.yaml
+
+   # values.yaml
+   nodeApp:
+     releaseName: v2app
+   ```
    
-4. Monitoring with **KIALI**
+5. Monitoring with **KIALI**
 <img width="800" alt="Screenshot 2024-01-16 at 21 04 58" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/7882e48e-6862-4ece-a3e7-60f73f12ad2a">
 
 
