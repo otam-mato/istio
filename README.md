@@ -9,8 +9,6 @@
 </p>
 
 
-
-
 <br>
 
 > [!NOTE]
@@ -113,7 +111,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 <br>
 
-![image](https://github.com/otam-mato/istio/assets/113034133/241749c0-e9a1-452b-adde-1b891891d3f8)
+![image](https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/ee864114-ac60-4740-a0f2-2e97daf568df)
 
 <br>
 
