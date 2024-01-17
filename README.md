@@ -295,6 +295,33 @@ Implementing **"Canary"** deployment with traffic destribution:
 
 
 We need to re-deploy the istio components (Gateway and a VirtualService) from the [helm_istio_services_charts_canary]() folder
+
+This is modifies VirtualService for the reference (it is available in helm_istio_services_charts_canary directory)
+   ```
+   # Istio VirtualService Canary
+  apiVersion: networking.istio.io/v1alpha3
+  kind: VirtualService
+  metadata:
+    name: node-app-canary
+  spec:
+    hosts:
+    - "*"
+    gateways:
+    - node-app-gateway
+    http:
+    - route:
+      - destination:
+          host: {{ .Values.nodeApp.releaseOneName }}
+          port:
+            number: 80
+        weight: 80
+      - destination:
+          host: {{ .Values.nodeApp.releaseTwoName }}
+          port:
+            number: 80
+        weight: 20
+   ```
+
    ```
    helm delete istiocomponents
    ```
