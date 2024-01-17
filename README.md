@@ -21,8 +21,8 @@
 > In the current installment, we're setting up the service mesh with **Istio** and demonstrate observability features with **Kiali**, **Jaeger**, **Prometheus** and **Grafana**.
 <br>
 
-<img width="200" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
-<img width="200" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
+<img width="300" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
+<img width="300" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
 
 ## Deployment Strategy
 
