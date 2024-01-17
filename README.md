@@ -196,6 +196,8 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm install v1app .
    ```
 
+   <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
+
 3. Deploying the istio components
    ```
    cd ../../../helm_istio_services_charts
