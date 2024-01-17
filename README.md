@@ -44,9 +44,9 @@
    
 5. We will deploy Istio services using **HELM** as well:
    - A Gateway
-   - A virtual service
+   - A Virtual Service
   
-5. We switch traffic from V1 to V2 which will represent a **"Blue-Green"** deployment strategy
+5. We will switch traffic from V1 to V2 which will represent a **"Blue-Green"** deployment strategy
 
 6. Then we will re-arrange the Istio Virtual Service to redistribute the traffic to V1 and V2 in 80%/20% ratio which will represent a **"Canary"** deployment strategy
 
