@@ -370,6 +370,9 @@ This is modified VirtualService for the reference (it is available in helm_istio
    helm install istiocomponents .
    ```
 
+
+   <img width="800" alt="Screenshot 2024-01-17 at 17 02 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/b760036f-291d-47f7-be88-6ebab6cdf8d8">
+
 Now both app versions available at the Istio VirtualService loadbalancer's dns name. When you update the page a few times you will see the V1 and V2 and the traffic distribution like this:
 
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
