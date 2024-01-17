@@ -196,8 +196,6 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm install v1app .
    ```
 
-   <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
-
 3. Deploying the istio components
    ```
    cd ../../../helm_istio_services_charts
@@ -211,8 +209,13 @@ The app sets up a web server for a supplier management system. It allows viewing
    ```
    helm install istiocomponents .
    ```
+
+   <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
    
 5. Monitoring with **KIALI**
+
+   Now the V1 of the app available and the traffic distribution looks like this:
+   
 <img width="800" alt="Screenshot 2024-01-15 at 16 57 52" src="https://github.com/otam-mato/istio/assets/113034133/29fd9c65-d181-4da9-8406-ecf5416df0af">
 
 ### Deploying the app V2 with HELM
