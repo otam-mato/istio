@@ -25,8 +25,7 @@
 <p align="center">
   <img width="300" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
   <img width="300" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
-  <img width="300" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/95d26eee-d99f-452c-a86f-b54af394d613">
-
+  <img width="300" alt="Screenshot 2024-01-17 at 16 44 07" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/39537028-6ff9-4ffc-9c62-1868619b6425">
 </p>
 
 <br>
