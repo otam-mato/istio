@@ -123,6 +123,13 @@ The app sets up a web server for a supplier management system. It allows viewing
 - I will be using **AWS EKS**, and this official **Terraform** blueprint to deploy AWS resources, EKS cluster and Istio: <br>
   https://istio.io/latest/docs/setup/platform-setup/amazon-eks/ <br>
   https://aws-ia.github.io/terraform-aws-eks-blueprints/patterns/istio/
+
+  so:
+  ```
+  terraform init
+  terraform apply --auto-approve
+  ```
+  
 - **HELM** [installed](https://helm.sh/docs/intro/install/)
 - **ISTIO** [installed](https://istio.io/latest/docs/setup/getting-started/)
 - **Kubectl** [installed](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
