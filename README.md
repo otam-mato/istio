@@ -180,8 +180,23 @@ The app sets up a web server for a supplier management system. It allows viewing
 ### Deploying the app V1 with HELM
 
 1. Deploying the app
+   ```
+   git clone https://github.com/otam-mato/istio_nodejsapp_demo.git
+   ```
+   ```
+   cd istio_nodejsapp_demo/helm_charts_app/v1_app_deployment_chart
+   ```
+   ```
+   helm lint
+   ```
+   ```
+   helm template
+   ```
+   ```
+   helm install v1app .
+   ```
 
-2. Deploying the istio components
+3. Deploying the istio components
    
 4. Monitoring with **KIALI**
 <img width="800" alt="Screenshot 2024-01-15 at 16 57 52" src="https://github.com/otam-mato/istio/assets/113034133/29fd9c65-d181-4da9-8406-ecf5416df0af">
