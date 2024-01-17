@@ -289,9 +289,9 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ### Traffic management
 
-Implementing **"Canary"** deployment with traffic destribution:
-   - 80% to V1 of the app
-   - 20% to V2 of the app
+   Implementing **"Canary"** deployment with traffic destribution:
+      - 80% to V1 of the app
+      - 20% to V2 of the app
 
 
 2. Re-deploying the istio components (Gateway and a VirtualService) from [helm_istio_services_charts_canary]() folder
