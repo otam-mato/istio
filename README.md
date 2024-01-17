@@ -214,9 +214,9 @@ The app sets up a web server for a supplier management system. It allows viewing
    
 5. Monitoring with **KIALI**
 
-   Now the V1 of the app available and the traffic distribution looks like this:
+   Now the V1 of the app is available and the traffic distribution looks like this:
    
-<img width="800" alt="Screenshot 2024-01-15 at 16 57 52" src="https://github.com/otam-mato/istio/assets/113034133/29fd9c65-d181-4da9-8406-ecf5416df0af">
+   <img width="800" alt="Screenshot 2024-01-15 at 16 57 52" src="https://github.com/otam-mato/istio/assets/113034133/29fd9c65-d181-4da9-8406-ecf5416df0af">
 
 ### Deploying the app V2 with HELM
 
