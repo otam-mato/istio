@@ -219,14 +219,12 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm lint .
    ```
    ```
-   helm template istiocomponents .
+   helm template istiosvc .
    ```
    ```
-   helm install istiocomponents .
+   helm install istiosvc .
    ```
    
-   <img width="800" alt="Screenshot 2024-01-17 at 17 02 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/b760036f-291d-47f7-be88-6ebab6cdf8d8">
-
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
    
 5. Monitoring with **KIALI**
@@ -253,7 +251,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 2. Re-deploying the istio components (Gateway and a VirtualService)
    ```
-   helm delete istiocomponents
+   helm delete istiosvc
    ```
    change the values of for istio Virtual Service to V2
    ```
@@ -267,11 +265,14 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm lint
    ```
    ```
-   helm template istiocomponents .
+   helm template istiosvc .
    ```
    ```
-   helm install istiocomponents .
+   helm install istiosvc .
    ```
+
+   <img width="800" alt="Screenshot 2024-01-17 at 17 02 12" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/b760036f-291d-47f7-be88-6ebab6cdf8d8">
+
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
    
 3. Monitoring with **KIALI**
@@ -364,10 +365,10 @@ This is modified VirtualService for the reference (it is available in helm_istio
    helm lint
    ```
    ```
-   helm template istiocomponents .
+   helm template iistiosvc .
    ```
    ```
-   helm install istiocomponents .
+   helm install istiosvc .
    ```
 
 
@@ -383,6 +384,7 @@ Now both app versions available at the Istio VirtualService loadbalancer's dns n
 
    <img width="800" alt="Screenshot 2024-01-16 at 20 27 28" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/1a1b2ae4-ec4b-4829-b0c7-b829290f4fbc">
 
+<br>
 <br>
 
 
