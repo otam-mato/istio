@@ -278,7 +278,7 @@ The app sets up a web server for a supplier management system. It allows viewing
    <img width="800" alt="Screenshot 2024-01-16 at 21 04 58" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/7882e48e-6862-4ece-a3e7-60f73f12ad2a">
 
 
-### Demo of the observability tools
+### Demo for the observability tools
 
   ```
   # Visualize Istio Mesh console using Kiali
