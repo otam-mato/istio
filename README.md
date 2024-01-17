@@ -296,8 +296,9 @@ Implementing **"Canary"** deployment with traffic destribution:
 
 We need to re-deploy the istio components (Gateway and a VirtualService) from the [helm_istio_services_charts_canary]() folder
 
-This is modifies VirtualService for the reference (it is available in helm_istio_services_charts_canary directory)
-   ```
+
+This is modified VirtualService for the reference (it is available in helm_istio_services_charts_canary directory)
+   ```yml
    # Istio VirtualService Canary
   apiVersion: networking.istio.io/v1alpha3
   kind: VirtualService
