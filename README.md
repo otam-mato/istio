@@ -196,7 +196,7 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm install v1app .
    ```
 
-3. Deploying the istio components
+3. Deploying the istio components (Gateway and a VirtualService)
    ```
    cd ../../../helm_istio_services_charts
    ```
@@ -234,7 +234,7 @@ The app sets up a web server for a supplier management system. It allows viewing
    helm install v2app .
    ```
 
-2. Re-deploying the istio components
+2. Re-deploying the istio components (Gateway and a VirtualService)
    ```
    helm delete istiocomponents
    ```
