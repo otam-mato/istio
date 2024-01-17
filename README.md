@@ -307,7 +307,7 @@ Implementing **"Canary"** deployment with traffic distribution:
   - 20% to V2 of the app
 
 
-We need to re-deploy the istio components (Gateway and a VirtualService) from the [helm_istio_services_charts_canary]() folder
+We need to re-deploy the istio components (Gateway and a VirtualService) from the [helm_istio_services_charts_canary](https://github.com/otam-mato/istio_nodejsapp_demo/tree/main/helm_istio_services_charts_canary) folder
 
 
 This is modified VirtualService for the reference (it is available in helm_istio_services_charts_canary directory)
