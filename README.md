@@ -312,7 +312,7 @@ We need to re-deploy the istio components (Gateway and a VirtualService) from th
    helm install istiocomponents .
    ```
 
-Now both app versions available at loadbalancer dns name. When you update the page a few times you will see the V1 and V2 and the traffic distribution like this:
+Now both app versions available at the Istio VirtualService loadbalancer's dns name. When you update the page a few times you will see the V1 and V2 and the traffic distribution like this:
 
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
    <img width="800" alt="Screenshot 2024-01-16 at 20 44 26" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/4f932371-c0e6-4a4e-b881-08647f209767">
@@ -323,3 +323,6 @@ Now both app versions available at loadbalancer dns name. When you update the pa
    <img width="800" alt="Screenshot 2024-01-16 at 20 27 28" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/1a1b2ae4-ec4b-4829-b0c7-b829290f4fbc">
 
 <br>
+
+
+Thanks for reading up to this point! :)
