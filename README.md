@@ -117,8 +117,6 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 ## Architecture of the "Canary" deployment
 
-<br>
-
 <img width="1400" alt="Screenshot 2024-01-17 at 14 39 48" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/75603eec-ba5b-4973-8a35-674a00a5f16d">
 
 <br>
