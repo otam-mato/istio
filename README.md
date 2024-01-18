@@ -67,7 +67,7 @@
 
 ## Functionality
 
-This two-tier web application interfaces with a MySQL database, facilitating CRUD (Create, Read, Update, Delete) operations on the database records.
+This two-tier web application interfaces with a MySQL database, facilitating CRUD (Create, Read, Update, Delete) operations on the database records. We will use the two versions of the app's frontend
 
 <p align="center">
   <img width="300" alt="Screenshot 2024-01-16 at 20 44 03" src="https://github.com/otam-mato/istio_nodejsapp_demo/assets/113034133/a7802bc5-60f0-4cbe-8400-57fdb6ce6b0a">
